@@ -1,1 +1,50 @@
+/* This is the style of overall webpage body*/ 
+body {
+  background-color: rgb(188, 194, 194);
+}
+
+/* This is the style of image displayed on top of webpage*/ 
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* This is the style of navigation bar displayed on webpage*/
+.topnav{
+  font-size: larger;
+}
+
+/* This is the style of basic map page on navigation bar*/
+.active{
+  color: red;
+  text-decoration: dashed;
+}
+
+/* This is the style of main heading of webpage*/
+h1 {
+  color: navy;
+  text-align: center;
+  margin-top: auto ;
+  margin-bottom: auto;
+}
+
+/* This is the style of container of webpage*/
+.w3-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* This is the style of map element available in container of webpage*/
+.map {
+  height: 700px;
+}
+
+/* This is the style of footer of webpage*/
+.footer-basic {
+  color: black;
+  margin-top: auto ;
+  padding: 2rem;
+  background-color: rgb(31, 211, 224);
+  font-size: larger;
+}
 
