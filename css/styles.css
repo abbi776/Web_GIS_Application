@@ -37,7 +37,7 @@ h1 {
 /* This is the style of default button of webpage*/
 .button {
   background-color: #4CAF50; /* Green */
-  border: none;
+  border: yellow;
   color: white;
   text-align: center;
   text-decoration: none;
