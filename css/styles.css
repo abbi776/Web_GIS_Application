@@ -34,6 +34,18 @@ h1 {
   padding-right: 5%;
 }
 
+/* This is the style of default button of webpage*/
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 /* This is the style of map element available in container of webpage*/
 .map {
   height: 700px;
