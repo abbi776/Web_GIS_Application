@@ -1,3 +1,5 @@
+// creating and adding map feature
+
 let map = L.map('map').setView([58.373523, 26.716045], 12)
 const osm =
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
@@ -7,11 +9,13 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
 })
 osm.addTo(map)
 
-// add popup to each feature
+// adding popup to each feature
 function popUPinfo(feature, layer) {
 layer.bindPopup(feature.properties.NIMI)
 }
-// add geoJSON polygons layer
+
+
+// add geoJSON polygons layer of tartu city districts
 async function addDistrictsGeoJson(url) {
 const response = await fetch(url)
 const data = await response.json()
@@ -24,8 +28,7 @@ addDistrictsGeoJson('geojson/tartu_city_districts_edu.geojson')
 
 
 
-
-// add geoJSON layer
+// add geoJSON layerof cell towers location
 async function addCelltowersGeoJson(url) {
 const response = await fetch(url)
 const data = await response.json()
@@ -37,7 +40,7 @@ clusters.addTo(map)
 addCelltowersGeoJson('geojson/tartu_city_celltowers_edu.geojson')
 
 
-// default map settings
+// default map settings for default view button
 function defaultMapSettings() {
 map.setView([58.373523, 26.716045], 12)
 }
