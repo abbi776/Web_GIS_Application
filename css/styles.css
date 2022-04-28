@@ -28,6 +28,13 @@ h1 {
   margin-bottom: auto;
 }
 
+h3 {
+  color: black;
+  text-align: center;
+  margin-top: auto ;
+  margin-bottom: auto;
+}
+
 /* This is the style of container of webpage*/
 .w3-container {
   padding-left: 5%;
