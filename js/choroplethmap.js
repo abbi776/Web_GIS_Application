@@ -21,7 +21,7 @@ async function addGeoJson(url) {
     steps: 5, // number of breaks or steps in range
     mode: 'q', // q for quantile, e for equidistant, k for k-means
     style: {
-      color: '#dd1c77', // border color
+      color: '#FFFF00', // border color
       weight: 2,
       fillOpacity: 0.8,
     },
