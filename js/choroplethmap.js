@@ -17,11 +17,11 @@ async function addGeoJson(url) {
   const data = await response.json()
   L.choropleth(data, {
     valueProperty: 'TOWERS', // which property in the features to use
-    scale: ['#ffffff', '#ff9900'], // chroma.js scale - include as many as you like
+    scale: ['#fee5d9', '#a50f15'], // chroma.js scale - include as many as you like
     steps: 5, // number of breaks or steps in range
     mode: 'q', // q for quantile, e for equidistant, k for k-means
     style: {
-      color: '#fff', // border color
+      color: '#dd1c77', // border color
       weight: 2,
       fillOpacity: 0.8,
     },
